@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>videojs-playlists demo</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet">
+    <link href="http://vjs.zencdn.net/4.7/video-js.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://vjs.zencdn.net/4.7/video.js"></script>
+    <script src="https://rawgithub.com/Belelros/videojs-playLists/master/lib/videojs-playlists.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="video-holder">
+        <video id="video" class="video-js vjs-default-skin"
+               controls preload="auto" width="640" height="264"
+               data-setup=''
+               poster="#">
+        </video>
+        <div class="playlist-components">
+            <div class="playlist">
+                <ul>
+                    <li><span class="number">1</span><span class="poster"><img src="http://flowplayer.org/media/img/demos/minimalist.jpg"></span><span class="title">Video 1</span></li>
+                    <li><span class="number">2</span><span class="poster"><img src="http://flowplayer.org/media/img/demos/playlist/railway_station.jpg"></span><span class="title">Video 2</span></li>
+                    <li><span class="number">3</span><span class="poster"><img src="http://flowplayer.org/media/img/demos/functional.jpg"></span><span class="title">Video 3</span></li>
+                </ul>
+            </div>
+            <div class="button-holder">
+                <button id="prev">Prev</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
